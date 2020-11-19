@@ -2,9 +2,9 @@
 //  GenerateThumbnailForURL.m
 //  QLAnsilove
 //
-//  QLAnsilove is Copyright © 2017, Christian R. Vozar / Alpha King <blocktronics>
-//  AnsiLove.framework is Copyright © 2010-2017, Stefan Vogt
-//  Ansilove/C is Copyright © 2011-2017, Stefan Vogt, Brian Cassidy, and Frederic Cambus
+//  QLAnsilove is Copyright © 2017-2020, Christian R. Vozar / Alpha King <blocktronics>
+//  AnsiLove.framework is Copyright © 2010-2020, Stefan Vogt
+//  Ansilove/C is Copyright © 2011-2020, Stefan Vogt, Brian Cassidy, and Frederic Cambus
 //
 //  All rights reserved.
 //

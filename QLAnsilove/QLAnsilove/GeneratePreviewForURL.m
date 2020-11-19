@@ -2,9 +2,9 @@
 //  GeneratePreviewForURL.m
 //  QLAnsilove
 //
-//  QLAnsilove is Copyright © 2017, Christian R. Vozar / Alpha King <blocktronics>
-//  AnsiLove.framework is Copyright © 2010-2017, Stefan Vogt
-//  Ansilove/C is Copyright © 2011-2017, Stefan Vogt, Brian Cassidy, and Frederic Cambus
+//  QLAnsilove is Copyright © 2017-2020, Christian R. Vozar / Alpha King <blocktronics>
+//  AnsiLove.framework is Copyright © 2010-2020, Stefan Vogt
+//  Ansilove/C is Copyright © 2011-2020, Stefan Vogt, Brian Cassidy, and Frederic Cambus
 //
 //  All rights reserved.
 //
@@ -55,11 +55,11 @@ OSStatus GeneratePreviewForURL(__unused void* thisInterface, QLPreviewRequestRef
                 contentString = [[NSMutableAttributedString alloc] initWithString:@""];
             }
             
-            // Get the current file URL and convert it to an UNIX path.
+            // Get current file URL, convert to UNIX path.
             NSURL *tnCurrentURL = (__bridge NSURL *)url;
             alURLString = [tnCurrentURL path];
             
-            // Get the currrent file name without any path informations.
+            // Get currrent file name without path information.
             NSString *tnPureFileName = [alURLString lastPathComponent];
             
             ansiCacheFile = [NSString stringWithFormat:
@@ -72,7 +72,7 @@ OSStatus GeneratePreviewForURL(__unused void* thisInterface, QLPreviewRequestRef
             ansiCacheFile = [ansiCacheFile stringByExpandingTildeInPath];
             retinaCacheFile = [retinaCacheFile stringByExpandingTildeInPath];
             
-            // Create string we can pass as outputfile flag.
+            // Create string as outputfile flag.
             alOutputString = [NSString stringWithFormat:
                                @"~/Library/Application Support/QLAnsilove/%@", tnPureFileName];
             alOutputString = [alOutputString stringByExpandingTildeInPath];
