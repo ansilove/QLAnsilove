@@ -1,3 +1,5 @@
+## QLansilove is being moved to archive/read-only. Apple has deprecated quicklook generators in Big Sur in favor of including previews in app extensions. I will look to see if it would be possible to include this functionality in Ascension which is a more appropriate and Apple-like place for this functionality to land. -AK
+
 # QLAnsilove
 
 macOS QuickLook plugin for text-mode art supported by the ansilove library. All file formats supported by ansilove are supported by the plugin.
